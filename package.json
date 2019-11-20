@@ -1,0 +1,41 @@
+{
+  "name": "ronockstrmwtr1",
+  "version": "1.0.0",
+  "description": "fetching data from USGS",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js",
+    "test": "jest --watch --verbose",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TeddyZenebe/ronockStrmwtr.git"
+  },
+  "keywords": [
+    "node.jd",
+    "express",
+    "knex.js"
+  ],
+  "author": "Teddy-zenebe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TeddyZenebe/ronockStrmwtr/issues"
+  },
+  "homepage": "https://github.com/TeddyZenebe/ronockStrmwtr#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "helmet": "^3.21.2",
+    "jest": "^24.9.0",
+    "knex": "^0.20.1",
+    "node-cron": "^2.0.3",
+    "node-fetch": "^2.6.0",
+    "nodemon": "^1.19.4",
+    "sqlite3": "^4.1.0",
+    "supertest": "^4.0.2",
+    "xml2js": "^0.4.22"
+  }
+}
