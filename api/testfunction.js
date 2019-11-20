@@ -2,7 +2,7 @@
 const fetch = require('node-fetch');
 const db = require('../Database/observedData-model.js');
 
-
+// js fron end scheduling ...I tried to test it at backend 
 const minutes = 0.25, the_interval = minutes * 60 * 1000;
 setTimeout(async()=>{
     const url = "https://waterservices.usgs.gov/nwis/iv/?format=json&indent=on&sites=02055000&parameterCd=00060,00065"

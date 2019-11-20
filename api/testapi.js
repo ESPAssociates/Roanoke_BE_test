@@ -1,6 +1,5 @@
 const router = require('express').Router();
 const fetch = require('node-fetch')
-//const parseString = require('xml2js').parseString;
 const db = require('../Database/observedData-model.js')
 
 router.get('/', async(req, res) => {
@@ -9,6 +8,7 @@ router.get('/', async(req, res) => {
     .then(data=>{res.json(data)})
 })
 
+// this api is only used to test as a channel to get data and post on the database with user request 
 router.post('/', async(req, res) => {
     const url = "https://waterservices.usgs.gov/nwis/iv/?format=json&indent=on&sites=02055000&parameterCd=00060,00065"
     const fetched = await fetch(url)
