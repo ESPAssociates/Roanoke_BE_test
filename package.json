@@ -32,7 +32,7 @@
     "jest": "^24.9.0",
     "knex": "^0.20.1",
     "node-cron": "^2.0.3",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "nodemon": "^1.19.4",
     "sqlite3": "^4.1.0",
     "supertest": "^4.0.2",
